@@ -1,26 +1,26 @@
-### PyMouseMacro
+# PyMouseMacro
 Simple mouse macro made using Python3
 
-**Description:**
+### Description:
 
 Uses the following libraries which can be installed using pip install
 
-mouse,
-keyboard,
-tkinter,
-time
+mouse</br>
+keyboard</br>
+tkinter</br>
+time</br>
 
-**Installation:**
+### Installation:
 
 Navigate to [releases](https://github.com/danyee1688/PyMouseMacro/releases) for further instructions
 
-**Keybinds**
+### Keybinds:
 
-CTRL + ALT + R = Record,
-CTRL + ALT + P = Play,
-CTRL + ALT + L = Loop
+CTRL + ALT + R = Record</br>
+CTRL + ALT + P = Play</br>
+CTRL + ALT + L = Loop</br>
 
-**Instructions**
+### Instructions:
 
 1. Start recording
 2. Press a location that you want the mouse to click on
