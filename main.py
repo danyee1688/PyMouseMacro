@@ -39,14 +39,12 @@ speed_factor_input = tk.StringVar()
 # Start recording by setting boolean to true
 def start_recording():
     global recording
-    print("recording started")
     set_recording_text(True)
     recording = True
 
 # Stop recording by setting boolean to false
 def stop_recording():
     global recording
-    print("recording stopped")
     recording = False
 
 # Check for whether or not to stop recording 
@@ -57,9 +55,7 @@ def check_for_stop():
     global recording_text
 
     if recording == True:
-        print("waiting for input")
         mouse.wait('left')
-        print("unblocked")
 
         set_recording_text(False)
 
@@ -95,7 +91,6 @@ def set_looping_text(active):
 
 # Plays the sequence of recorded clicks
 def play_recording():
-    print("playing mouse sequence")
     global coordinate_list
     global looping
 
@@ -180,8 +175,6 @@ speed_entry = tk.Entry(content, bg="white", textvariable=speed_factor_input, jus
 # ========================================================================================================================================= 
 
 if __name__ == "__main__":  
-    print("MouseMacro enabled")
-
     # Add hotkeys for corresponding action
     keyboard.add_hotkey('ctrl+alt+r', start_recording)
     keyboard.add_hotkey('ctrl+alt+p', play_recording)
