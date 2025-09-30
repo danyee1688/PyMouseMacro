@@ -16,8 +16,8 @@ Navigate to [releases](https://github.com/danyee1688/PyMouseMacro/releases) for 
 
 **Keybinds**
 
-CTRL + ALT + R = Record
-CTRL + ALT + P = Play
+CTRL + ALT + R = Record,
+CTRL + ALT + P = Play,
 CTRL + ALT + L = Loop
 
 **Instructions**
